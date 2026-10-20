@@ -1,0 +1,12 @@
+{
+  "name": "sahaaya-backend",
+  "version": "1.0.0",
+  "description": "Sahaaya - Your Health. Our Support. (Express + SQLite backend)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning server.js"
+  },
+  "engines": { "node": ">=22.13.0" },
+  "dependencies": { "express": "^4.21.2" },
+  "license": "MIT"
+}

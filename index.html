@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sahaaya - Your Health. Our Support.</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms"></script>
+<script>if(typeof tailwind!=='undefined')tailwind.config={theme:{extend:{colors:{brand:{50:'#f0f7ff',100:'#e0effe',200:'#bae0fd',500:'#2563eb',600:'#1d4ed8',700:'#1e40af'},teal:{500:'#0f766e',600:'#0d9488'}}}}}</script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="icon" href="data:,">
+<link href="style.css" rel="stylesheet">
+</head>
+<body class="bg-slate-50 text-slate-900">
+<div class="max-w-6xl mx-auto p-3 md:p-6">
+  <header class="bg-white rounded-2xl border border-slate-200 shadow-sm p-4">
+    <div class="flex items-center gap-3">
+      <div class="w-11 h-11 rounded-xl bg-brand-500 text-white grid place-items-center text-xl"><i class="fa-solid fa-heart-pulse"></i></div>
+      <div><div class="text-xl font-extrabold text-brand-600 leading-tight">Sahaaya</div><div id="tag" class="text-xs text-slate-500"></div></div>
+      <span class="ml-auto text-[11px] font-bold bg-brand-100 text-brand-700 px-2.5 py-1 rounded-full">Interactive Prototype</span>
+    </div>
+    <nav id="tabs" class="flex gap-2 mt-4 overflow-x-auto pb-1" aria-label="Screens"></nav>
+  </header>
+  <div class="bg-white rounded-2xl border border-slate-200 shadow-sm p-3 mt-3 flex flex-wrap items-center justify-between gap-2">
+    <div class="text-sm min-w-0 truncate"><span class="text-xs font-semibold text-slate-500">ACTIVE SCREEN: </span><b id="title"></b></div>
+    <div class="flex gap-2 shrink-0"><button class="btn-s" data-act="prev"><i class="fa-solid fa-chevron-left"></i> Previous</button><button class="btn-s" data-act="next">Next <i class="fa-solid fa-chevron-right"></i></button></div>
+  </div>
+  <div class="mt-3 px-4 py-2.5 rounded-xl bg-amber-50 border border-amber-200 text-xs text-amber-900 font-medium"><i class="fa-solid fa-circle-info mr-1"></i> Proof-of-concept prototype: hospitals, doctors, waiting times, beds and tokens are simulated demo data, not live hospital data. Accounts and appointments are saved in a local demo database. In a real emergency call <b>112</b> (ambulance <b>108</b>).</div>
+  <main id="view" class="mt-3"></main>
+  <footer class="text-center text-xs text-slate-500 py-6">Sahaaya - Your Health. Our Support. | Prototype with Bhimavaram sample data | Emergency: <a class="font-bold text-red-600 underline" href="tel:112">112</a> / <a class="font-bold text-red-600 underline" href="tel:108">108</a></footer>
+</div>
+<div id="toast" class="fixed bottom-5 left-1/2 -translate-x-1/2 bg-slate-900 text-white text-sm px-4 py-2.5 rounded-xl shadow-lg hidden z-50" role="status"></div>
+<script src="script.js"></script>
+</body>
+</html>

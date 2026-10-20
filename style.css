@@ -1,0 +1,23 @@
+body{font-family:'Inter',system-ui,-apple-system,'Segoe UI',Roboto,sans-serif}
+.card{background:#fff;border:1px solid #e2e8f0;border-radius:1rem;padding:1.25rem;box-shadow:0 1px 2px rgba(15,23,42,.05)}
+.btn,.btn-r,.btn-o,.btn-s{display:inline-flex;align-items:center;justify-content:center;gap:.5rem;font-weight:700;border-radius:.75rem;cursor:pointer;transition:background .15s;text-align:center}
+.btn,.btn-r,.btn-o{min-height:48px;padding:.65rem 1.1rem;font-size:.95rem}
+.btn{background:#2563eb;color:#fff}.btn:hover{background:#1d4ed8}
+.btn-r{background:#dc2626;color:#fff}.btn-r:hover{background:#b91c1c}
+.btn-o{background:#fff;color:#1e40af;border:1px solid #bae0fd}.btn-o:hover{background:#f0f7ff}
+.btn-s{font-size:.75rem;padding:.45rem .75rem;border:1px solid #e2e8f0;background:#fff;color:#334155}.btn-s:hover{background:#f1f5f9}
+.tab{white-space:nowrap;font-size:.75rem;font-weight:600;padding:.5rem .85rem;border-radius:9999px;background:#f1f5f9;color:#334155}
+.tab.on{background:#2563eb;color:#fff}
+.chip{font-size:.7rem;font-weight:600;padding:.2rem .6rem;border-radius:9999px;background:#e0effe;color:#1e40af}
+.chip.t{background:#ccfbf1;color:#0f766e}
+.fchip{padding:.5rem 1rem;border-radius:9999px;border:1px solid #e2e8f0;background:#fff;font-weight:600;font-size:.85rem}
+.fchip.on{background:#2563eb;color:#fff;border-color:#2563eb}
+.slot{padding:.6rem 1rem;border-radius:.75rem;border:1px solid #cbd5e1;background:#fff;font-weight:600;font-size:.85rem}
+.slot.on{background:#2563eb;color:#fff;border-color:#2563eb}
+.lbl{display:block;font-size:.8rem;font-weight:600;color:#475569;margin-bottom:.3rem}
+.map{background-color:#e5edf5;background-image:linear-gradient(#d3dfec 1px,transparent 1px),linear-gradient(90deg,#d3dfec 1px,transparent 1px);background-size:28px 28px;border-radius:1rem;position:relative;overflow:hidden}
+.wave{display:inline-block;width:6px;background:#2563eb;border-radius:4px;animation:wave 1.2s ease-in-out infinite}
+.wave:nth-child(2){animation-delay:.2s}.wave:nth-child(3){animation-delay:.4s}.wave:nth-child(4){animation-delay:.6s}
+@keyframes wave{0%,100%{height:10px}50%{height:36px}}
+:focus-visible{outline:3px solid #0d9488;outline-offset:2px}
+@media (prefers-reduced-motion:reduce){.wave{animation:none;height:24px}}
