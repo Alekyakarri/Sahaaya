@@ -35,20 +35,20 @@ Submitted to the Digital Twin Challenge as a proof-of-concept prototype with cod
 
 | Field | Details |
 |---|---|
-| Team name | **[FILL IN]** |
-| Member 1 (name, role) | **[FILL IN]** |
-| Member 2 (name, role) | **[FILL IN]** |
-| Additional members | **[FILL IN or delete this row]** |
-| Contact email | **[FILL IN]** |
+| Team name | **Sahaaya** |
+| Member 1 (name, role) | ** Alekyakarri ,Team Lead & Backend Developer ** |
+| Member 2 (name, role) | ** J.ASDMadhuri,Frontend Developer** |
+| Member 3 (name, role) | ** B.Varalakshmi , Documentation ** |
+| Contact email | **karrialekya123@gmail.com** |
 
 ## 3. College / Incubator Information
 
 | Field | Details |
 |---|---|
-| College / institution | **[FILL IN]** |
-| Department / programme | **[FILL IN]** |
-| City, state | **[FILL IN]** |
-| Incubator (if any) | **[FILL IN, or write "Not applicable"]** |
+| College / institution | ** Vishnu Institute Of Technology** |
+| Department / programme | ** CSE(AI&DS)** |
+| City, state | ** Bhimavaram, Andhrapradesh** |
+| Incubator (if any) | ** Not applicable ** |
 
 ## 4. Problem Statement
 
