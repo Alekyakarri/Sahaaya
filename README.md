@@ -112,7 +112,7 @@ No paid API and no API keys are used anywhere in the project.
 
 **Unlisted YouTube video (15–20 minutes):**
 
-> `PASTE_UNLISTED_YOUTUBE_LINK_HERE`  ← replace this line with the real link after uploading. **The video has not been uploaded yet.**
+> https://youtu.be/ECCzLyiBAng?si=Bz4D3iXCm8LPlz_X 
 
 The recording plan, timings and narration points are in [docs/DEMO_VIDEO_SCRIPT.md](docs/DEMO_VIDEO_SCRIPT.md).
 
